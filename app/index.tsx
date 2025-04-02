@@ -28,7 +28,7 @@ export default function Onboarding() {
         
         <TouchableOpacity 
           style={{ borderWidth: 1, borderColor: 'gray', paddingVertical: 16, borderRadius: 12 }} 
-          // onPress={() => router.push('/signin')}
+          onPress={() => router.push('/signin')}
         >
           <Text style={{ color: 'black', textAlign: 'center', fontWeight: '600', fontSize: 18 }}>Sign In</Text>
         </TouchableOpacity>
